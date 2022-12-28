@@ -1,0 +1,23 @@
+{
+    "name": "olorin/package-hillel-user-agent",
+    "description": "Some description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Hamenko",
+            "email": "hamenko.aleksandr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hillel\\UserAgent\\": "./src"
+        }
+    },
+    "require": {
+        "laravel/framework": "^9.19",
+        "donatj/phpuseragentparser": "^1.7",
+        "whichbrowser/parser": "^2.1"
+    }
+}
